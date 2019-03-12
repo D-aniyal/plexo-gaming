@@ -38,7 +38,7 @@ Route::get('/AllPlatform1', 'PagesController@AllPlatform1');
 Route::get('/acceptmatch', 'PagesController@acceptmatch');
 Route::get('/createteam', 'PagesController@createteam');
 Route::get('/gamefilter', 'PagesController@gamefilter');
-Route::get('/gameselection', 'PagesController@gameselection');
+Route::get('gameselection', 'PagesController@gameselection');
 Route::get('/notification', 'PagesController@notification');
 Route::get('/selectionslider', 'PagesController@selectionslider');
 Route::get('/submittmatch', 'PagesController@submittmatch');
