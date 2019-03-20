@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="lang="{{ str_replace('_', '-', app()->getLocale()) }}"">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
 <head>
 
@@ -15,42 +15,39 @@
      <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="img/logo/Plexo Logo.png">
+    <link rel="shortcut icon" href="{{ asset('img/logo/Plexo Logo.png') }}">
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
 
     <!-- Fontawesome -->
-    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{{ asset('css/font-awesome/css/font-awesome.min.css') }}">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ asset('css/bootstrap/bootstrap.min.css') }}">
 
     <!-- Owl Carousel CSS -->
-    <link rel="stylesheet" href="css/owl-carousel/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl-carousel/owl.theme.default.min.css">
+    <link rel="stylesheet" href="{{ asset('css/owl-carousel/owl.carousel.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/owl-carousel/owl.theme.default.min.css') }}">
 
     <!-- Responsive Tabs CSS -->
-    <link rel="stylesheet" href="css/responsive-tabs/responsive-tabs.min.css">
+    <link rel="stylesheet" href="{{ asset('css/responsive-tabs/responsive-tabs.min.css') }}">
 
     <!-- Magnific Popup -->
-    <link rel="stylesheet" href="css/magnific-popup/magnific-popup.min.css">
+    <link rel="stylesheet" href="{{ asset('css/magnific-popup/magnific-popup.min.css') }}">
 
     <!-- Animate CSS -->
-    <link rel="stylesheet" href="css/animate/animate.min.css">
+    <link rel="stylesheet" href="{{ asset('css/animate/animate.min.css') }}">
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
 
     <!-- Responsive CSS -->
-    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="{{ asset('css/responsive.css') }}">
 
-    <style>
-    .bg {
-  background:transparent;
-}
-        </style>
+
+    @stack('styles')
 
 </head>
 
@@ -243,40 +240,40 @@
 <!-- Footer Ends -->
 
 <!-- JQuery -->
-<script src="js/jquery.min.js"></script>
+<script src="{{ asset('js/jquery.min.js') }}"></script>
 
 <!-- Bootstrap JS -->
-<script src="js/bootstrap/bootstrap.min.js"></script>
+<script src="{{ asset('js/bootstrap/bootstrap.min.js') }}"></script>
 
 <!-- Owl Carousel JS -->
-<script src="js/owl-carousel/owl.carousel.min.js"></script>
+<script src="{{ asset('js/owl-carousel/owl.carousel.min.js') }}"></script>
 
 <!-- Waypoints -->
-<script src="js/waypoints/jquery.waypoints.min.js"></script>
+<script src="{{ asset('js/waypoints/jquery.waypoints.min.js') }}"></script>
 
 <!-- Responsive Tabs JS -->
-<script src="js/responsive-tabs/jquery.responsiveTabs.min.js"></script>
+<script src="{{ asset('js/responsive-tabs/jquery.responsiveTabs.min.js') }}"></script>
 
 <!-- Isotope -->
-<script src="js/isotope/isotope.pkgd.min.js"></script>
+<script src="{{ asset('js/isotope/isotope.pkgd.min.js') }}"></script>
 
 <!-- Magnific Popup -->
-<script src="js/magnific-popup/jquery.magnific-popup.min.js"></script>
+<script src="{{ asset('js/magnific-popup/jquery.magnific-popup.min.js') }}"></script>
 
 <!-- Counter -->
-<script src="js/counter/jquery.counterup.min.js"></script>
+<script src="{{ asset('js/counter/jquery.counterup.min.js') }}"></script>
 
 <!-- Google Map JS -->
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD9EdV2JfPG1Vfviw9gf_HlblIUfs7Ie2E"></script>
 
 <!-- Easing -->
-<script src="js/easing/jquery.easing.1.3.min.js"></script>
+<script src="{{ asset('js/easing/jquery.easing.1.3.min.js') }}"></script>
 
 <!-- WOW JS -->
-<script src="js/wow/wow.min.js"></script>
+<script src="{{ asset('js/wow/wow.min.js') }}"></script>
 
 <!-- Custom JS -->
-<script src="js/script.js"></script>
+<script src="{{ asset('js/script.js') }}"></script>
 </body>
 
 </html>

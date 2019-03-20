@@ -45,7 +45,7 @@
                     <input type="submit" name="sign-in" value="Sign In">
                     -->
                     <input type="submit" class="btn btn-info" role="button">LOGIN</input>
-                    <a href="#">Forget Password</a><br>
+                    <a href="{{ route('password.request') }}">Forget Password</a><br>
                     <a href="{{ route('register') }}">Don't have an account?<u> Signup</u></a>
                 </form>
             </div>
