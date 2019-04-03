@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Title -->
-    <title>{{config('app.name','Plexo')}}</title>
+    <title>{{config('app.name', 'Plexo')}}</title>
     
      <!-- CSRF Token -->
      <meta name="csrf-token" content="{{ csrf_token() }}">
@@ -69,7 +69,7 @@
                             <!-- Mobile Menu Open Button -->
                             <span id="mobile-nav-open-btn">&#9776;</span>
                            <a  href="{{ url('/') }}">
-                            <img src="img/logo/Plexo-Logo---Final-27th-Nov2.png" alt="">
+                            <img src="{{ asset('img/logo/Plexo-Logo---Final-27th-Nov2.png') }}" alt="">
     </a>
                         </div>
     
