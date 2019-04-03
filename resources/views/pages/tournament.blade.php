@@ -46,7 +46,7 @@
 
                 <div class="col-md-4 col-sm-4 wow fadeInLeft">
                     <!-- About item 01 -->
-                    <a href="http://localhost/PlexoGaming/public/gameselection">
+                    <a href="{{url('/gameselection')}}">
                     <div class="about-item text-center">
                             
                         
@@ -59,7 +59,7 @@
                
                 <div class="col-md-4 col-sm-4  wow fadeInUp">
                     <!-- About item 02 -->
-                    <a href="http://localhost/PlexoGaming/public/gameselection">
+                    <a href="{{url('/gameselection')}}">
                     <div class="about-item text-center">
                            
                         
@@ -72,7 +72,7 @@
 
                 <div class="col-md-4 col-sm-4  wow fadeInRight">
                     <!-- About item 03 -->
-                    <a href="http://localhost/PlexoGaming/public/gameselection">
+                    <a href="{{url('/gameselection')}}">
                     <div class="about-item text-center">
                             
                    

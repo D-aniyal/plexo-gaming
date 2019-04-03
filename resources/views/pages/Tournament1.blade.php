@@ -27,7 +27,7 @@
       <div class="row ">
         <div class=" col-md-4 height-800px">
          <img src="img/gameart.jpg" alt="">
-         <a href="http://localhost/PlexoGaming/public/createteam" class="btn btn-primary btn-block ">JOIN NOW</a>
+         <a href="{{url('/createteam')}}" class="btn btn-primary btn-block ">JOIN NOW</a>
         </div>
       
         <div class=" col-md-7 ml-auto">

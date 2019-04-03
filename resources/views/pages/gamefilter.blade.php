@@ -49,32 +49,46 @@
 
 	<div class="row">
 		<div class="col-sm-6 col-md-4 col-lg-3 filter portraits mb-5">
-      <a href="http://localhost/PlexoGaming/public/Tournament1">
+      <a href="{{url('/Tournament1')}}">
       <img src="img/gta.jpg" width ="250px" height ="250px" class="img-fluid">
       </a>
 		</div>
 		<div class="col-sm-6 col-md-4 col-lg-3 filter portraits mb-5">
-            <img src="img/gta.jpg" width ="250px" height ="250px" class="img-fluid">
+      <a href="{{url('/Tournament1')}}">
+        <img src="img/gta.jpg" width ="250px" height ="250px" class="img-fluid">
+        </a>
 		</div>
 		<div class="col-sm-6 col-md-4 col-lg-3 filter landscapes mb-5">
-            <img src="img/gta.jpg" width ="250px" height ="250px" class="img-fluid">
+      <a href="{{url('/Tournament1')}}">
+        <img src="img/gta.jpg" width ="250px" height ="250px" class="img-fluid">
+        </a>
 		</div>
 		<div class="col-sm-6 col-md-4 col-lg-3 filter landscapes mb-5">
-            <img src="img/gta.jpg" width ="250px" height ="250px" class="img-fluid">
+      <a href="{{url('/Tournament1')}}">
+        <img src="img/gta.jpg" width ="250px" height ="250px" class="img-fluid">
+        </a>
     </div>
     
 		<div class="col-sm-6 col-md-4 col-lg-3 filter urban mb-5">
-            <img src="img/gta.jpg" width ="250px" height ="250px" class="img-fluid">
+      <a href="{{url('/Tournament1')}}">
+        <img src="img/gta.jpg" width ="250px" height ="250px" class="img-fluid">
+        </a>
 		</div>
 		<div class="col-sm-6 col-md-4 col-lg-3 filter landscapes mb-5">
-            <img src="img/gta.jpg" width ="250px" height ="250px" class="img-fluid">
+      <a href="{{url('/Tournament1')}}">
+        <img src="img/gta.jpg" width ="250px" height ="250px" class="img-fluid">
+        </a>
 		</div>
 		<div class="col-sm-6 col-md-4 col-lg-3 filter portraits mb-5">
-            <img src="img/gta.jpg" width ="250px" height ="250px" class="img-fluid">
+      <a href="{{url('/Tournament1')}}">
+        <img src="img/gta.jpg" width ="250px" height ="250px" class="img-fluid">
+        </a>
      
 		</div>
 		<div class="col-sm-6 col-md-4 col-lg-3 filter landscapes mb-5">
-            <img src="img/gta.jpg" width ="250px" height ="250px" class="img-fluid">
+      <a href="{{url('/Tournament1')}}">
+        <img src="img/gta.jpg" width ="250px" height ="250px" class="img-fluid">
+        </a>
 		</div>
 	</div>
 </div>

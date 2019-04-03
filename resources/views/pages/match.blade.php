@@ -48,7 +48,7 @@
                   <div class=" col-md-6">
                
                    <h3> Match</h3>
-                   <a href="/PlexoGaming/public/createteam" class="btn btn-primary ">Create Team</a>
+                   <a href="{{url('/createteam')}}" class="btn btn-primary ">Create Team</a>
                    <a href="" class="btn btn-primary ">View Rules</a>
                 </div>
                 

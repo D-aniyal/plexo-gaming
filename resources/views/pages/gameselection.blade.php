@@ -44,7 +44,7 @@
 
                 <div class="col-md-4 col-sm-4 wow fadeInLeft">
                     <!-- About item 01 -->
-                    <a href="http://localhost/PlexoGaming/public/gamefilter">
+                    <a href="{{url('/gamefilter')}}">
                     <div class="about-item text-center">
                             <img src="img/client/FORTNITE.png" class="" alt="" height="42" width="42">
                         <hr>
@@ -57,7 +57,7 @@
                
                 <div class="col-md-4 col-sm-4  wow fadeInUp">
                     <!-- About item 02 -->
-                    <a href="http://localhost/PlexoGaming/public/gamefilter">
+                    <a href="{{url('/gamefilter')}}">
                     <div class="about-item text-center">
                             <img src="img/client/download.jpg" class="" alt="" height="42" width="42">
                         <hr>
@@ -70,7 +70,7 @@
 
                 <div class="col-md-4 col-sm-4  wow fadeInRight">
                     <!-- About item 03 -->
-                    <a href="http://localhost/PlexoGaming/public/gamefilter">
+                    <a href="{{url('/gamefilter')}}">
                     <div class="about-item text-center">
                             <img src="img/client/download (1).jpg" class="" alt="" height="42" width="42">
                         <hr>

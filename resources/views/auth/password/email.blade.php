@@ -1,5 +1,12 @@
-@extends('layouts.app')
-
+@extends('layout.app')
+@push('styles')
+    <style type="text/css">
+        .justify-content-center {
+            margin-top: 200px;
+            color: #fff;
+        }
+    </style>
+@endpush
 @section('content')
 <div class="container">
     <div class="row justify-content-center">
